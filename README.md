@@ -16,7 +16,7 @@ library(ggplot2)
 p <- ggplot(mpg, aes(displ, hwy, color = class)) +
   geom_point() +
   nerd_theme_gruv() +
-  scale_color_nerd(palette = "red hard")
+  scale_color_nerd(palette = "main")
 ggsave('ex1.jpg', p, width = 8, height = 8)
 
 # example 2
