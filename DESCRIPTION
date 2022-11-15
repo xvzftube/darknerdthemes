@@ -1,0 +1,17 @@
+Package: darknerdthemes
+Version: 0.0.0
+Date: 2022-11-14
+Title: Styles for dark nerd themes
+Authors@R: person("xvzf", "tube", email = "xvzf.tube@gmail.com", role = c("aut","cre"))
+Author: xvzftube [aut, cre]
+Maintainer: xvzftube <xvzf.tube@gmail.com>
+Description: Fun dark nerd themes for ggplot2
+License: MIT
+LazyData: TRUE
+RoxygenNote: 7.1.1
+Imports: 
+    ggplot2 (>= 2.3.3),
+    assertthat,
+    magrittr
+Suggests: 
+    testthat
