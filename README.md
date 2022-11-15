@@ -5,8 +5,20 @@ I like to use dark themes when working. I like `gruvebox`, `nord`, and `everfore
 # Example
 
 ```
-#install
+# install
+devtools::install_github("https://github.com/xvzftube/darknerdthemes")
 
-#
+# load
+library()
 
+# example 1
+ggplot(mpg, aes(displ, hwy, color = class)) +
+  geom_point() +
+  nerd_theme_gruv()
+  
+# example 2
+ggplot(mpg, aes(displ, hwy, color = class)) +
+  geom_point() +
+  nerd_theme_nord()+
+  scale_color_nerd(palette = "nord aurora")
 ```
