@@ -85,10 +85,10 @@ nerd_colors <- function(...) {
 # nerdtube chocolate palettes
 nerd_o_palettes <- list(
   `candy` = nerd_colors("white-80", "black-30", "bright-tomato", "nerd-red", "gold-rod-orange"),
-  `main` = nerd_colors("white", "violet-red", "cadet-blue", "light-sea-green", "gold-rod-green", "gold-rod-orange", "black-20"),
+  `main` = nerd_colors("white", "violet-red", "cadet-blue", "nerd-red", "gold-rod-green", "gold-rod-orange", "black-20"),
   `nord frost` = nerd_colors("nord-snow-storm-30", "nord-frost-10", "nord-frost-20", "nord-frost-40", "nord-frost-60"),
   `nord aurora` = nerd_colors("nord-snow-storm-30", "nord-aurora-10", "nord-aurora-40", "nord-aurora-60", "nord-aurora-80", "nord-aurora-20", "nord-frost-10", "nord-frost-60", "nord-snow-storm-30"),
-  `everforest` = nerd_colors("everforest-background", "everforest-white", "everforest-green", "everforest-blue", "everforest-orange", "everforest-purple", "everforest-green")
+  `everforest` = nerd_colors("everforest-white", "everforest-green", "everforest-blue", "everforest-orange", "everforest-purple", "everforest-green")
 )
 
 #' nerd color palettes generator.
