@@ -61,7 +61,7 @@ ggsave('ex5.jpg', p, width = 8, height = 8)
 
 ## Example 4
 
-![Example 4](ex3.jpg)
+![Example 4](ex4.jpg)
 
 ## Example 5
 
