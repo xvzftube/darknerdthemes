@@ -9,7 +9,7 @@ I like to use dark themes when working. I like `gruvebox`, `nord`, and `everfore
 devtools::install_github("https://github.com/xvzftube/darknerdthemes")
 
 # load
-library()
+library(darknerdthemes)
 
 # example 1
 ggplot(mpg, aes(displ, hwy, color = class)) +
