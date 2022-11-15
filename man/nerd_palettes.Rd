@@ -3,7 +3,7 @@
 \name{nerd_palettes}
 \alias{nerd_palettes}
 \alias{nerd_main}
-\alias{red_hard}
+\alias{candy}
 \alias{nord_frost}
 \alias{nord_aurora}
 \alias{everforest}
@@ -11,7 +11,7 @@
 \usage{
 nerd_main(n)
 
-red_hard(n)
+candy(n)
 
 nord_frost(n)
 

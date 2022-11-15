@@ -14,7 +14,7 @@ nerd_main <- nerd_pal()
 
 #' @rdname nerd_palettes
 #' @export
-red_hard <- nerd_pal(palette = "red hard")
+candy <- nerd_pal(palette = "candy")
 
 #' @rdname nerd_palettes
 #' @export

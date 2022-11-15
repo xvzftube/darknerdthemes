@@ -129,6 +129,27 @@ nerd_theme_gruv <- function(legend_right = FALSE,
     )
 }
 
+#' ggplot2 theme for nerd graphs.
+#' @param legend_right Logical indicating whether legend should be placed to
+#' the right of the plot. If FALSE, the default, legend is positioned above the
+#' plot.
+#' @param base_size The base font size
+#' @param base_family Font family
+#' @param base_line_size Default
+#' @param base_rect_size Default
+#' @importFrom ggplot2 %+replace%
+#' @export
+#' @examples
+#' library(ggplot2)
+#' ggplot(mpg, aes(displ, hwy, color = class)) +
+#'   geom_point() +
+#'   nerd_theme()
+#'
+#' ggplot(mpg, aes(displ, hwy)) +
+#'   geom_point() +
+#'   nerd_theme(vars(class)) +
+#'   nerd_theme()
+#'
 nerd_theme_nord <- function(legend_right = FALSE,
                             base_size = 12,
                             base_family = "",
@@ -140,7 +161,7 @@ nerd_theme_nord <- function(legend_right = FALSE,
   grid_line_size <- 0.2
   title_text_color <- nerd_colors("nord-snow-storm-30")
   other_text_color <- nerd_colors("nord-snow-storm-30")
-  panel_background <- nerd_colors("nord-polar-night-30")
+  panel_background <- nerd_colors("nord-polar-night-70")
   font_family <- "SauceCode Pro Nerd Font"
 
 
@@ -239,6 +260,27 @@ nerd_theme_nord <- function(legend_right = FALSE,
     )
 }
 
+#' ggplot2 theme for nerd graphs.
+#' @param legend_right Logical indicating whether legend should be placed to
+#' the right of the plot. If FALSE, the default, legend is positioned above the
+#' plot.
+#' @param base_size The base font size
+#' @param base_family Font family
+#' @param base_line_size Default
+#' @param base_rect_size Default
+#' @importFrom ggplot2 %+replace%
+#' @export
+#' @examples
+#' library(ggplot2)
+#' ggplot(mpg, aes(displ, hwy, color = class)) +
+#'   geom_point() +
+#'   nerd_theme()
+#'
+#' ggplot(mpg, aes(displ, hwy)) +
+#'   geom_point() +
+#'   nerd_theme(vars(class)) +
+#'   nerd_theme()
+#'
 nerd_theme_everforest <- function(legend_right = FALSE,
                                   base_size = 12,
                                   base_family = "",
