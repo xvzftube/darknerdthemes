@@ -4,7 +4,7 @@ I like to use dark themes when working. I like `gruvebox`, `nord`, and `everfore
 
 # Example
 
-```
+```r
 # install
 devtools::install_github("https://github.com/xvzftube/darknerdthemes")
 
