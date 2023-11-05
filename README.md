@@ -46,6 +46,13 @@ p <- ggplot(mpg, aes(displ, hwy, color = class)) +
   nerd_theme_gruv()
 ggsave('ex5.jpg', p, width = 8, height = 8)
 
+# example 6
+p <- ggplot(mpg, aes(displ, hwy, color = class)) +
+  geom_point() +
+  nerd_theme_xvzf() +
+  scale_color_nerd(palette = "xvzf")
+ggsave('ex6.jpg', p, width = 8, height = 8)
+
 ```
 ## Example 1
 
