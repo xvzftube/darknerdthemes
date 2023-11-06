@@ -1,5 +1,5 @@
 Package: darknerdthemes
-Version: 0.0.2
+Version: 0.0.3
 Date: 2022-11-14
 Title: Styles for dark nerd themes
 Authors@R: person("xvzf", "tube", email = "xvzf.tube@gmail.com", role = c("aut","cre"))
