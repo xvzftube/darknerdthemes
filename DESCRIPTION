@@ -8,7 +8,7 @@ Maintainer: xvzftube <xvzf.tube@gmail.com>
 Description: Fun dark nerd themes for ggplot2
 License: MIT
 LazyData: TRUE
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.3
 Imports: 
     ggplot2 (>= 2.3.3),
     assertthat,
