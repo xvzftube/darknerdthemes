@@ -49,7 +49,7 @@ nerd_o_colors <- c(
   `everforest-orange` = "#e69875",
   `everforest-purple` = "#d699b6",
   `everforest-green` = "#83C092",
-  `xvzf-background` = "#1F1F21"
+  `xvzf-background` = "#1F1F21",
   `xvzf-yellow` = "#FBD500",
   `xvzf-red` = "#D01141",
   `xvzf-blue` = "#00E9C5",
@@ -58,9 +58,8 @@ nerd_o_colors <- c(
   `xvzf-white` = "#F3F3F4",
   `xvzf-grey` = "#C3C4C7",
   `xvzf-lemon` = "#FCFE8B",
-  `xvzf-lime` = "#FCFE8B",
-  `xvzf-plumb` = "#FE8BC3",
-  
+  `xvzf-lime` = "#FCAE0A",
+  `xvzf-plumb` = "#FE8BC3"
 )
 
 nerd_colors <- function(...) {
@@ -100,7 +99,7 @@ nerd_o_palettes <- list(
   `candy` = nerd_colors("white", "violet-red", "cadet-blue", "nerd-red", "gold-rod-green", "gold-rod-orange", "black-20"),
   `nord frost` = nerd_colors("nord-snow-storm-30", "nord-frost-10", "nord-frost-20", "nord-frost-40", "nord-frost-60"),
   `nord aurora` = nerd_colors("nord-snow-storm-30", "nord-aurora-10", "nord-aurora-40", "nord-aurora-60", "nord-aurora-80", "nord-aurora-20", "nord-frost-10", "nord-frost-60", "nord-snow-storm-30"),
-  `everforest` = nerd_colors("everforest-white", "everforest-green", "everforest-blue", "everforest-orange", "everforest-purple", "everforest-green")
+  `everforest` = nerd_colors("everforest-white", "everforest-green", "everforest-blue", "everforest-orange", "everforest-purple", "everforest-green"),
   `xvzf` = nerd_colors("xvzf-yellow","xvzf-red","xvzf-blue","xvzf-pruple","xvzf-brown", "xvzf-white", "xvzf-grey","xvzf-lemon", "xvzf-lime", "xvzf-plumb")
 )
 
